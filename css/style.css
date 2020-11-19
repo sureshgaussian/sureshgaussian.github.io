@@ -35,7 +35,7 @@ Design and Developed by: iqonicthemes.in
 -----------------------------------------------------------------------*/
 header.fixed{position: absolute; width: 100%;background: #ffffff; -webkit-transition: all 0.3s ease-out 0s; -moz-transition: all 0.3s ease-out 0s; -ms-transition: all 0.3s ease-out 0s; -o-transition: all 0.3s ease-out 0s; transition: all 0.3s ease-out 0s; padding: 20px 0; z-index: 999;}
 header { z-index: 999; -webkit-transition: all 0.3s ease-out 0s; -moz-transition: all 0.3s ease-out 0s; -ms-transition: all 0.3s ease-out 0s; -o-transition: all 0.3s ease-out 0s; transition: all 0.3s ease-out 0s; position: absolute; left: 0; width: 100%; padding: 30px 0; }
-header .logo { width: 100px; display: block; }
+header .logo { width: 300px; display: block; }
 
 header .navbar-light .navbar-nav .nav-item { margin: 0 20px; }
 header .navbar-light .navbar-nav .nav-link { font-size: 14px; font-weight: 400; color: #ffffff; text-transform: uppercase; letter-spacing: 1px; padding-top: 8px; padding-bottom: 0; }
@@ -46,7 +46,7 @@ header.menu-sticky { position: fixed; padding: 10px 0; top: 0; left: 0; display:
 header.menu-sticky .button.brd:hover { color: #ffffff; }
 header .navbar-light .navbar-toggler { border-color: #dddddd; border-radius: 0; background: #ffffff; }
 header.menu-sticky .button.brd { padding: 10px 30px; color: #ffffff; }
-header.menu-sticky .logo { width: 100px; }
+header.menu-sticky .logo { width: 300px; }
 header .navbar-expand-lg { padding-left: 0; }
 header .navbar-light .navbar-nav .nav-item a { color: #666666; position: relative; padding: 0;  font-size: 16px; font-weight: 600;}
 header .navbar-light .navbar-nav .nav-item:hover a, header .navbar-light .navbar-nav .nav-item a.active, header .navbar-light .navbar-nav .nav-item a:focus,  header .navbar-light .navbar-nav .nav-item a:focus{color: #6754d9;}
