@@ -323,7 +323,8 @@ footer .form-control{display: block;
 /*---------------------------------------------------------------------
 6 Breadcrumb
 -----------------------------------------------------------------------*/
-.breadcrumb-main{padding: 200px 0 100px; background:#6754d9 ;}
+/* .breadcrumb-main{padding: 200px 0 100px; background:#6754d9 ;} */
+.breadcrumb-main{padding: 120px 0 20px; background:#6754d9 ;}
 .breadcrumb-main .breadcrumb-item a,.breadcrumb-main .breadcrumb-item.active ,.breadcrumb-main .breadcrumb-item+.breadcrumb-item::before{color: #ffffff;}
 .breadcrumb-main .breadcrumb-item+.breadcrumb-item::before{line-height: 36px;}
 .breadcrumb-main .breadcrumb-item a i{margin-right: 6px;     font-size: 20px;}
