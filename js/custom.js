@@ -344,11 +344,11 @@ HM.init();
 					.done(function(data) {
 						console.log("successfully");
 						debugger
-						$("#result").html('Form was successfully submitted.');
+						$("#result").html('Thank you for contacting us. We will follow up with you within 24 hours.');
 						$('#contact')[0].reset();
 					})
 					.fail(function() {
-						alert('Ajax Submit Failed ...');
+						alert('Please ensure all required fields are filled properly.');
 						console.log("fail");
 
 					});
