@@ -310,6 +310,7 @@ HM.init();
 		--------------------------*/
 		$('#contact').submit(function(e) {
 			var form_data = $(this).serialize();
+			// var form_data = JSON.stringify($(this))
 			var flag = 0;
 			e.preventDefault(); // Prevent Default Submission
 			$('.require').each(function() {
@@ -322,22 +323,27 @@ HM.init();
 					flag = 0;
 				}
 			});
-			if (grecaptcha.getResponse() == "") {
+/* 			if (grecaptcha.getResponse() == "") {
 				flag = 1;
 				alert('Please verify Recaptch');
 
 			} else {
 				flag = 0;
-			}
+			} */
+			flag = 0;
+			
 			if (flag == 0) {
 				console.log(form_data);
 				$.ajax({
-						url: 'php/contact-form.php',
+						// url: 'php/contact-form.php',
+						url: "https://script.google.com/macros/s/AKfycbzEU_R_Gr6hT8OWxjBWzxEM-hmJYEIV8nEtGqjHZBWpUDNxEHc/exec",
 						type: 'POST',
+						// dataType: 'json',
 						data: form_data, // it will serialize the form data
 					})
 					.done(function(data) {
 						console.log("successfully");
+						debugger
 						$("#result").html('Form was successfully submitted.');
 						$('#contact')[0].reset();
 					})
